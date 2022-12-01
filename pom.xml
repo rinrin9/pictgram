@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.example.pictgram</groupId>
 	<artifactId>pictgram</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>pictgram</name>
 	<description>pictgram</description>
@@ -79,6 +80,11 @@
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
             <version>1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
 	</dependencies>
 
