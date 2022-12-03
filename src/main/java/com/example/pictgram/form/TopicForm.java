@@ -2,6 +2,7 @@ package com.example.pictgram.form;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
+import java.util.List;
 
 import org.springframework.web.multipart.MultipartFile;
 
@@ -30,5 +31,9 @@ public class TopicForm {
     private String description;
 
     private UserForm user;
+    
+    private List<FavoriteForm> favorites;
+    
+    private FavoriteForm favorite;
 
 }
