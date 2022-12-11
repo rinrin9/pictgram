@@ -7,6 +7,8 @@
     <title>Pictgram</title>
   </head>
   <body>
+    <button type=“button” onclick="location.href='https://rinrin.mydns.jp/topics/topic.csv/'">ダウンロード</button>
+    
     <div class="topics-index-wrapper" layout:fragment="contents">
       <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
       <script defer th:src="|https://maps.googleapis.com/maps/api/js?key=${@environment.getProperty('googlemap.key')}&callback=initMap|"></script>
